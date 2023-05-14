@@ -1,5 +1,5 @@
 {
-  "name": "core-design-system",
+  "name": "@dalgu/core-design-system",
   "version": "0.0.1",
   "main": "./index.tsx",
   "types": "dist/types/index.d.ts",
