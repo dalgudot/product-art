@@ -1,9 +1,9 @@
-import { Button, Header } from "ui";
+import { Button, Header } from 'core-design-system';
 
 export default function Page() {
   return (
     <>
-      <Header text="Web" />
+      <Header text='Web' />
       <Button />
     </>
   );
