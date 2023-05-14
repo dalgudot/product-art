@@ -10,8 +10,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint \"**/*.ts*\"",
-    "build": "rollup -c",
-    "build-publish": "rollup -c && publish --access=public"
+    "build": "rollup -c"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.21.4",
