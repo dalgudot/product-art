@@ -1,6 +1,6 @@
 {
   "name": "@dalgu/core-design-system",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./index.tsx",
   "types": "dist/types/index.d.ts",
   "module": "dist/index.js",
