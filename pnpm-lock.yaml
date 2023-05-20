@@ -19,6 +19,9 @@ importers:
 
   apps/dalgu:
     dependencies:
+      '@dalgu/core-design-system':
+        specifier: workspace:*
+        version: link:../../packages/core-design-system
       '@types/node':
         specifier: ^20.1.4
         version: 20.1.4
