@@ -1,5 +1,3 @@
-// 'use client';
-
 import { Button, Header } from '@dalgu/core-design-system';
 import styles from './page.module.css';
 
