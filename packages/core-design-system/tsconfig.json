@@ -1,5 +1,6 @@
 // Internal Package
 // https://turbo.build/repo/docs/handbook/sharing-code/internal-packages
+// https://turbo.build/repo/docs/handbook/publishing-packages/bundling
 {
   "compilerOptions": {
     "esModuleInterop": true,
@@ -9,7 +10,9 @@
     "preserveWatchOutput": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "strict": true
+    "strict": true,
+    "declaration": true,
+    "declarationDir": "dist/types"
   },
   "extends": "tsconfig/react-library.json",
   "include": ["."],

@@ -7,7 +7,7 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 const extensions = ['.js', '.jsx', '.ts', '.tsx']; // 어떤 확장자를 처리 할 지 정함
 
 export default {
-  input: './index.ts',
+  input: 'src/index.ts',
   output: [
     {
       file: 'dist/index.js',
