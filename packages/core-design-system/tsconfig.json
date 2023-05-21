@@ -1,5 +1,6 @@
-// Internal Package
+// Internal Package && External Pacakge
 // https://turbo.build/repo/docs/handbook/sharing-code/internal-packages
+// https://turbo.build/repo/docs/handbook/publishing-packages/bundling
 {
   "compilerOptions": {
     "esModuleInterop": true,
@@ -14,19 +15,4 @@
   "extends": "tsconfig/react-library.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
-  // "compilerOptions": {
-  //   "target": "es5",
-  //   "lib": ["dom", "dom.iterable", "esnext"],
-  //   "skipLibCheck": true,
-  //   "esModuleInterop": true,
-  //   "allowSyntheticDefaultImports": true,
-  //   "strict": true,
-  //   "forceConsistentCasingInFileNames": true,
-  //   "module": "esnext",
-  //   "moduleResolution": "node",
-  //   "resolveJsonModule": true,
-  //   "jsx": "react",
-  //   "declaration": true,
-  //   "declarationDir": "dist/types"
-  // }
 }
