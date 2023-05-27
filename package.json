@@ -10,7 +10,7 @@
     "eslint": "^8.41.0",
     "eslint-config-custom": "workspace:*",
     "prettier": "^2.8.8",
-    "turbo": "^1.9.8"
+    "turbo": "^1.9.9"
   },
   "packageManager": "pnpm@7.15.0",
   "name": "product-art"
