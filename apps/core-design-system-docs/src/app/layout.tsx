@@ -1,6 +1,7 @@
 import '@dalgu/core-design-system/src/foundations/colors-common.css';
 import '@dalgu/core-design-system/src/foundations/colors-small-app.css';
 import '@dalgu/core-design-system/src/foundations/globals.css';
+import '@dalgu/core-design-system/src/foundations/text-styles.css';
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
