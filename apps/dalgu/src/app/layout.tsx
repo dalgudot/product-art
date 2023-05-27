@@ -1,4 +1,4 @@
-import '@dalgu/core-design-system/src/foundations/colors.css';
+import '@dalgu/core-design-system/src/foundations/colors-common.css';
 import '@dalgu/core-design-system/src/foundations/globals.css';
 
 export const metadata = {
