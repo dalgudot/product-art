@@ -32,6 +32,12 @@ export default function TestButtonComponent() {
         onClick={() => {}}
         disabled={true}
       />
+      <Button
+        label='Client Button'
+        appearance='line'
+        size='small'
+        onClick={() => {}}
+      />
     </div>
   );
 }
