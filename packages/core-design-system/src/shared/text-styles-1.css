@@ -1,0 +1,47 @@
+/* Regular */
+.regular__18 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.regular__16 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.regular__14 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Medium */
+.medium__18 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.medium__16 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.medium__14 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Bold */
+.bold__18 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bold__16 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.bold__14 {
+  font-size: 14px;
+  font-weight: 700;
+}

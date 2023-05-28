@@ -1,6 +1,6 @@
 'use client';
 
-import { Button, Header } from '@dalgu/core-design-system';
+import { Button } from '@dalgu/core-design-system';
 import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context';
 import { useRouter } from 'next/navigation';
 
@@ -17,7 +17,6 @@ export default function Home() {
 
   return (
     <main>
-      <Header text='Pretendard 하하' />
       <Button label='버튼' onClick={() => toggleLanguage(router)} />
     </main>
   );
