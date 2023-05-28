@@ -1,5 +1,3 @@
 # Product Art
 
-## Core Design System
-
-[Core Design System](https://www.npmjs.com/package/@dalgu/core-design-system)
+[Core Design System](https://github.com/dalgudot/product-art/tree/cds/add-cds-readme/packages/core-design-system)

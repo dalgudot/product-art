@@ -11,15 +11,57 @@ Essential, Customizable, Business Driven Design System for React
 ## Installation
 
 ```
-npm i @dalgu/core-design-system
+npm i @dalgu/core-design-system @emotion/react @emotion/styled
 ```
 
 ```
-yarn add @dalgu/core-design-system
+yarn add @dalgu/core-design-system @emotion/react @emotion/styled
 ```
 
 ```
-pnpm add @dalgu/core-design-system
+pnpm add @dalgu/core-design-system @emotion/react @emotion/styled
 ```
 
 <br/>
+
+## Usage
+
+### CSS
+
+```jsx
+import '@dalgu/core-design-system/shared/text-styles-1.css';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+```
+
+### Components
+
+Currently, only the `<Button />` component can be used for testing Core Design System.
+
+```jsx
+import { Button } from '@dalgu/core-design-system';
+
+export default function Example() {
+  return (
+    <Button
+      label='BUTTON LABEL'
+      onClick={() => alert('Core Design System Button Component!')}
+    />
+  );
+}
+```
+
+<br/>
+
+## Version history
+
+### 0.0.xx
+
+`2023.05.20 ~`
+✔️ Testing for production
+
+<br/>
+
+## Contact
+
+[dalgudot@gmail.com](mailto:dalgudot@gmail.com)
