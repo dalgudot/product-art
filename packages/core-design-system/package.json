@@ -1,13 +1,27 @@
 {
   "name": "@dalgu/core-design-system",
-  "version": "0.0.18",
+  "version": "0.0.19",
+  "description": "Essential, Customizable, Business driven Design System",
+  "author": "KyungHwan Kim",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "src/shared"
+    "shared"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dalgudot/product-art/tree/develop/packages/core-design-system"
+  },
+  "homepage": "https://github.com/dalgudot/product-art/tree/develop/packages/core-design-system#readme",
+  "bugs": {
+    "url": "https://github.com/dalgudot/product-art/issues"
+  },
+  "keywords": [
+    "react",
+    "design system"
+  ],
   "scripts": {
     "lint": "eslint \"**/*.ts*\"",
     "build": "tsup src/index.ts --format cjs --dts",

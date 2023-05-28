@@ -14,7 +14,7 @@ type AppearanceType = 'fill' | 'line';
 type SizeType = 'large' | 'medium' | 'small';
 type WidthType = number | 'fullWidth';
 
-export interface ButtonProps {
+interface ButtonProps {
   label: string;
   onClick: MouseEventHandler<HTMLButtonElement>;
   appearance?: AppearanceType;

@@ -9,7 +9,9 @@ export default function TestButtonComponent() {
         label='Client Button'
         appearance='fill'
         size='large'
-        onClick={() => {}}
+        onClick={() => {
+          alert('hi');
+        }}
       />
       <Button
         label='Client Button'
