@@ -4,19 +4,21 @@
 
 # Core Design System
 
-`Preparing now...` Essential, Customizable, Business Driven Design System for React
+`Preparing now...🔥`
+
+Essential, Customizable, Business Driven Design System for React
 
 <br/>
 
 ## Notification
 
-✨ Core Design System is currently being prepared so that anyone can use it in a production environment. I hope to make it available to you as soon as possible.
-
-<br/>
+Core Design System is currently being prepared so that **anyone can use it in a production environment**. I hope to make it available to you as soon as possible.
 
 If you support my project, you can sponsor me at the link below.
 
-[Core Design System Support](https://github.com/sponsors/dalgudot)
+[✨ Core Design System Support](https://github.com/sponsors/dalgudot)
+
+<br/>
 
 ## Installation
 
@@ -80,7 +82,7 @@ export default function Example() {
 
 If you support my project, you can sponsor me at the link below.
 
-[Core Design System Support](https://github.com/sponsors/dalgudot)
+[✨ Core Design System Support](https://github.com/sponsors/dalgudot)
 
 <br/>
 
