@@ -34,6 +34,8 @@ import '@dalgu/core-design-system/shared/text-styles-1.css';
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
+<br/>
+
 ### Components
 
 Currently, only the `<Button />` component can be used for testing Core Design System.
@@ -58,6 +60,7 @@ export default function Example() {
 ### 0.0.xx
 
 `2023.05.20 ~`
+
 ✔️ Testing for production
 
 <br/>
