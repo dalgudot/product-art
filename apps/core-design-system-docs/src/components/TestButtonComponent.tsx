@@ -38,6 +38,12 @@ export default function TestButtonComponent() {
         size='small'
         onClick={() => {}}
       />
+      <Button
+        label='Client Button'
+        appearance='line'
+        size='small'
+        onClick={() => {}}
+      />
     </div>
   );
 }
