@@ -2,38 +2,46 @@
 import { SerializedStyles, css } from '@emotion/react';
 import styled from '@emotion/styled';
 import { MouseEventHandler } from 'react';
-
-const config = require('core-design-system.config');
+import {
+  AllVarColorType,
+  VarFillButtonColorType,
+  VarFillButtonLabelColorType,
+  VarLineButtonColorType,
+  VarLineButtonLabelColorType,
+} from '../../type';
 
 type AppearanceType = 'fill' | 'line';
 type SizeType = 'large' | 'medium' | 'small';
 type WidthType = number | 'fullWidth';
 
-// Temp Color
-const g1 = '#e1dee6';
-const g8 = '#1f1f20';
-
 export interface ButtonProps {
   label: string;
+  onClick: MouseEventHandler<HTMLButtonElement>;
   appearance?: AppearanceType;
   size?: SizeType;
   width?: WidthType;
+  buttonColor?: AllVarColorType;
+  labelColor?: AllVarColorType;
   disabled?: boolean;
-  onClick: MouseEventHandler<HTMLButtonElement>;
 }
 
 export function Button({
   label,
+  onClick,
   appearance = 'fill',
   size = 'medium',
   width = undefined,
+  buttonColor = undefined,
+  labelColor = undefined,
   disabled = false,
-  onClick,
 }: ButtonProps) {
   return (
     <ButtonCommon
       className={setLabelTextStyle(appearance, size)}
-      css={[setAppearanceStyle(appearance), setPadding(size, width)]}
+      css={[
+        setAppearanceStyle(appearance, buttonColor, labelColor),
+        setPadding(size, width),
+      ]}
       onClick={onClick}
       disabled={disabled}
     >
@@ -74,6 +82,13 @@ const ButtonCommon = styled.button`
  *
  *
  */
+const fillButtonColor: VarFillButtonColorType = 'var(--fill-button-color)';
+const fillButtonLabelColor: VarFillButtonLabelColorType =
+  'var(--fill-button-label-color)';
+const lineButtonColor: VarLineButtonColorType = 'var(--line-button-color)';
+const lineButtonLabelColor: VarLineButtonLabelColorType =
+  'var(--line-button-label-color)';
+
 function setLabelTextStyle(type: AppearanceType, size: SizeType) {
   switch (size) {
     case 'large':
@@ -85,17 +100,21 @@ function setLabelTextStyle(type: AppearanceType, size: SizeType) {
   }
 }
 
-function setAppearanceStyle(type: AppearanceType): SerializedStyles {
-  switch (type) {
+function setAppearanceStyle(
+  appearance: AppearanceType,
+  buttonColor?: AllVarColorType,
+  labelColor?: AllVarColorType
+): SerializedStyles {
+  switch (appearance) {
     case 'fill':
       return css`
-        background-color: ${g8};
-        color: ${g1};
+        background-color: ${buttonColor ?? fillButtonColor};
+        color: ${labelColor ?? fillButtonLabelColor};
       `;
     case 'line':
       return css`
-        border: 1px solid ${g1};
-        color: ${g1};
+        border: 1px solid ${buttonColor ?? lineButtonColor};
+        color: ${labelColor ?? lineButtonLabelColor};
       `;
   }
 }
