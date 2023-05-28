@@ -1,7 +1,7 @@
 {
   "name": "@dalgu/core-design-system",
   "version": "0.0.19",
-  "description": "Essential, Customizable, Business driven Design System",
+  "description": "Essential, Customizable, Business Driven Design System for React",
   "author": "KyungHwan Kim",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
