@@ -1,5 +1,9 @@
-.layout {
-  /* display: flex; */
+.button__layout {
+  display: flex;
   flex-direction: column;
-  gap: 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+
+  margin: 0 auto;
 }

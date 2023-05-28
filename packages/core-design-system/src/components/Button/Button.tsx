@@ -58,6 +58,7 @@ const ButtonCommon = styled.button`
   background-color: transparent;
   border: none;
   border-radius: 8px;
+  text-align: center;
 
   @media (hover: hover) {
     &:hover {

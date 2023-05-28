@@ -48,8 +48,9 @@
  */
 
 :root {
-  --fill-button-color: var(--g7);
-  --fill-button-label-color: var(--g0);
-  --line-button-color: var(--g0);
-  --line-button-label-color: var(--g0);
+  /* 임시, 오른쪽 항을 색이 준비되면 'var(--primary7)'로 바꾸기 */
+  --fill-button-color: #be4bdb;
+  --fill-button-label-color: #f8f0fc;
+  --line-button-color: #be4bdb;
+  --line-button-label-color: #be4bdb;
 }

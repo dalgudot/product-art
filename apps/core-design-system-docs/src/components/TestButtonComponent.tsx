@@ -4,7 +4,7 @@ import s from './TestButtonComponent.module.css';
 
 export default function TestButtonComponent() {
   return (
-    <div className={s.layout}>
+    <div className={s.button__layout}>
       <Button
         label='Client Button'
         appearance='fill'
@@ -22,6 +22,7 @@ export default function TestButtonComponent() {
         label='Client Button'
         appearance='line'
         size='small'
+        width='fullWidth'
         onClick={() => {}}
       />
       <Button
