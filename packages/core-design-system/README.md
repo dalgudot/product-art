@@ -2,18 +2,21 @@
 [![npm version](https://img.shields.io/npm/v/@dalgu/core-design-system.svg)](https://www.npmjs.com/package/@dalgu/core-design-system)
 [![npm](https://img.shields.io/npm/dm/@dalgu/core-design-system.svg)](https://www.npmjs.com/package/@dalgu/core-design-system)
 
-# Core Design System `Preparing now...`
+# Core Design System
 
-Essential, Customizable, Business Driven Design System for React
+`Preparing now...` Essential, Customizable, Business Driven Design System for React
 
 <br/>
+
+## Notification
 
 ✨ Core Design System is currently being prepared so that anyone can use it in a production environment. I hope to make it available to you as soon as possible.
 
-If you support my project, you can sponsor me at the link below.
-[KyungHwan Kim](https://github.com/sponsors/dalgudot)
-
 <br/>
+
+If you support my project, you can sponsor me at the link below.
+
+[Core Design System Support](https://github.com/sponsors/dalgudot)
 
 ## Installation
 
@@ -70,6 +73,14 @@ export default function Example() {
 `2023.05.20 ~`
 
 ✔️ Testing for production
+
+<br/>
+
+## Sponsor
+
+If you support my project, you can sponsor me at the link below.
+
+[Core Design System Support](https://github.com/sponsors/dalgudot)
 
 <br/>
 
