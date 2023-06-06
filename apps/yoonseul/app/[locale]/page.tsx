@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <h1>{t('title')}</h1>
-      Dalgu
+      Yoonseul
       <ThemeToggle />
       <Link href='/' locale='ko'>
         Switch to Korean

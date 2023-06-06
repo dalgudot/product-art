@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import Link from 'next-intl/link';
 import ThemeToggle from '../../components/ThemeToggle';
+import { Button } from '@dalgu/core-design-system';
 
 export default function Home() {
   const t = useTranslations('Index');
@@ -8,7 +9,7 @@ export default function Home() {
   return (
     <>
       <h1>{t('title')}</h1>
-      Dalgu
+      Docs
       <ThemeToggle />
       <Link href='/' locale='ko'>
         Switch to Korean
