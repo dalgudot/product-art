@@ -12,6 +12,7 @@
     "@dalgu/core-design-system": "workspace:*",
     "eslint": "^8.40.0",
     "eslint-config-next": "^13.4.2",
+    "firebase": "^9.22.1",
     "next": "^13.4.2",
     "next-intl": "2.15.0-beta.5",
     "next-themes": "^0.2.1",
