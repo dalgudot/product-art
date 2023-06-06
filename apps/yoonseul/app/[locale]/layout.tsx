@@ -5,7 +5,7 @@ import { useLocale } from 'next-intl';
 import { Providers } from './providers';
 
 export const metadata = {
-  title: 'KyungHwan Kim',
+  title: 'YoonSeul | KyungHwan Kim',
   description: 'Product Designer',
 };
 
