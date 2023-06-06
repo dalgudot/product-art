@@ -7,15 +7,11 @@
  */
 
 export type AllVarColorType =
-  | VarBWColorType
   | VarGrayColorType
   | VarPrimaryColorType
   | VarSecondaryColorType;
 
-export type VarBWColorType = 'var(--white)' | 'var(--black)';
-
 export type VarGrayColorType =
-  | 'var(--gray0)'
   | 'var(--gray1)'
   | 'var(--gray2)'
   | 'var(--gray3)'
@@ -23,11 +19,9 @@ export type VarGrayColorType =
   | 'var(--gray5)'
   | 'var(--gray6)'
   | 'var(--gray7)'
-  | 'var(--gray8)'
-  | 'var(--gray9)';
+  | 'var(--gray8)';
 
 export type VarPrimaryColorType =
-  | 'var(--primary0)'
   | 'var(--primary1)'
   | 'var(--primary2)'
   | 'var(--primary3)'
@@ -35,11 +29,9 @@ export type VarPrimaryColorType =
   | 'var(--primary5)'
   | 'var(--primary6)'
   | 'var(--primary7)'
-  | 'var(--primary8)'
-  | 'var(--primary9)';
+  | 'var(--primary8)';
 
 export type VarSecondaryColorType =
-  | 'var(--secondary0)'
   | 'var(--secondary1)'
   | 'var(--secondary2)'
   | 'var(--secondary3)'
@@ -47,8 +39,7 @@ export type VarSecondaryColorType =
   | 'var(--secondary5)'
   | 'var(--secondary6)'
   | 'var(--secondary7)'
-  | 'var(--secondary8)'
-  | 'var(--secondary9)';
+  | 'var(--secondary8)';
 
 /**
  *
