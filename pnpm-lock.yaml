@@ -109,6 +109,52 @@ importers:
         specifier: 5.0.4
         version: 5.0.4
 
+  apps/default:
+    dependencies:
+      '@dalgu/core-design-system':
+        specifier: workspace:*
+        version: link:../../packages/core-design-system
+      eslint:
+        specifier: ^8.40.0
+        version: 8.41.0
+      eslint-config-next:
+        specifier: ^13.4.2
+        version: 13.4.2(eslint@8.41.0)(typescript@5.0.4)
+      next:
+        specifier: ^13.4.2
+        version: 13.4.2(react-dom@18.2.0)(react@18.2.0)
+      next-intl:
+        specifier: 2.15.0-beta.5
+        version: 2.15.0-beta.5(next@13.4.2)(react@18.2.0)
+      next-themes:
+        specifier: ^0.2.1
+        version: 0.2.1(next@13.4.2)(react-dom@18.2.0)(react@18.2.0)
+      react:
+        specifier: 18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.2.0
+        version: 18.2.0(react@18.2.0)
+    devDependencies:
+      '@types/node':
+        specifier: ^20.1.4
+        version: 20.1.4
+      '@types/react':
+        specifier: 18.2.6
+        version: 18.2.6
+      '@types/react-dom':
+        specifier: 18.2.4
+        version: 18.2.4
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../packages/eslint-config-custom
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      typescript:
+        specifier: 5.0.4
+        version: 5.0.4
+
   apps/yoonseul:
     dependencies:
       '@dalgu/core-design-system':
