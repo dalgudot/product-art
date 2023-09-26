@@ -1,7 +1,7 @@
 import style from './policy.module.css';
 
 type CommonTermsProps = {
-  type: 'YoonSeul' | 'Other';
+  type: 'Subscription' | 'Other';
 };
 
 export default function CommonTerms({ type }: CommonTermsProps): JSX.Element {
@@ -35,7 +35,9 @@ export default function CommonTerms({ type }: CommonTermsProps): JSX.Element {
   return (
     <>
       <main className={style.main}>
-        <h1>Terms of Use {type === 'YoonSeul' && '& Subscription Guide'}</h1>
+        <h1>
+          Terms of Use {type === 'Subscription' && '& Subscription Guide'}
+        </h1>
         {/* LICENSED APPLICATION END USER LICENSE AGREEMENT */}
         {/* https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ */}
         <section className={style.section}>
@@ -45,7 +47,7 @@ export default function CommonTerms({ type }: CommonTermsProps): JSX.Element {
           ))}
         </section>
 
-        {type === 'YoonSeul' && (
+        {type === 'Subscription' && (
           <section className={style.section}>
             <h2>Subscription Guide</h2>
             <p>
