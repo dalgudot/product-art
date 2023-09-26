@@ -5,8 +5,8 @@ import { useLocale } from 'next-intl';
 import { Providers } from './providers';
 
 export const metadata = {
-  title: 'KyungHwan Kim',
-  description: 'Product Designer',
+  title: 'Dalgu App',
+  description: 'Small App Project',
 };
 
 export default function RootLayout({
