@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
 import CommonTerms from '../../../../components/policy/terms';
 
-const YoonSeulTerms: NextPage = () => {
+const CalendarTerms: NextPage = () => {
   return <CommonTerms type='Subscription' />;
 };
 
-export default YoonSeulTerms;
+export default CalendarTerms;

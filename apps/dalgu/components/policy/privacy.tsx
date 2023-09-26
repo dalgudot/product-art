@@ -1,18 +1,24 @@
 import style from './policy.module.css'; // 추후 수정
 
 type PrivacyProps = {
-  appName: 'YoonSeul' | 'Today To Do' | 'Plant Family' | 'Reminder';
+  appName:
+    | 'YoonSeul'
+    | 'Today To Do'
+    | 'Plant Family'
+    | 'Reminder'
+    | 'Calendar';
   contactEmail:
     | 'yoonseul.app@gmail.com'
     | 'todaytodo.application@gmail.com'
     | 'plant.family.app@gmail.com'
-    | 'reminder.dalgu.app@gmail.com';
+    | 'reminder.dalgu.app@gmail.com'
+    | 'calendar.dalgu.app@gmail.com';
 };
 
 export default function Privacy({ appName, contactEmail }: PrivacyProps) {
   const description1_1 = `This application does not collect, use, save, or have access to any of your personal data recorded in ${appName}. Texts, photos, and date data stored in the ${appName} app are only saved on your device and your iCloud.`;
   const description1_2 =
-    appName !== 'Today To Do' && // Today To Do에서는 사진 라이브러리 접근 안 함.
+    (appName === 'YoonSeul' || appName === 'Plant Family') && // Today To Do에서는 사진 라이브러리 접근 안 함.
     `You might also be asked to provide access to your photo library, but this is to save the photos taken by ${appName} Application in your photo library. This application doesn’t process that information at all.`;
 
   const description2 =
@@ -48,7 +54,7 @@ export default function Privacy({ appName, contactEmail }: PrivacyProps) {
           </a>
         </p>
 
-        <p className={style.lasest__update}>Latest Update: Dec 06, 2022</p>
+        <p className={style.lasest__update}>Latest Update: Sep 26, 2023</p>
       </section>
     </main>
   );
