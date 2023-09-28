@@ -30,12 +30,12 @@ const nextConfig = {
           'https://apps.apple.com/kr/app/plant-family-water-reminder/id1633937579',
         permanent: false,
       },
-      {
-        source: '/reminder',
-        destination:
-          'https://apps.apple.com/kr/app/reminder-to-do-list/id6444939279',
-        permanent: false,
-      },
+      // {
+      //   source: '/reminder',
+      //   destination:
+      //     'https://apps.apple.com/kr/app/reminder-to-do-list/id6444939279',
+      //   permanent: false,
+      // },
     ];
   },
 };
