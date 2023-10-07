@@ -1,7 +1,7 @@
 import style from './policy.module.css';
 
 type CommonTermsProps = {
-  type: 'Subscription' | 'Other';
+  type: 'YoonSeul Subscription' | 'Calendar Subscription' | 'Other';
 };
 
 export default function CommonTerms({ type }: CommonTermsProps): JSX.Element {
@@ -35,9 +35,7 @@ export default function CommonTerms({ type }: CommonTermsProps): JSX.Element {
   return (
     <>
       <main className={style.main}>
-        <h1>
-          Terms of Use {type === 'Subscription' && '& Subscription Guide'}
-        </h1>
+        <h1>Terms of Use {type !== 'Other' && '& Subscription Guide'}</h1>
         {/* LICENSED APPLICATION END USER LICENSE AGREEMENT */}
         {/* https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ */}
         <section className={style.section}>
@@ -47,12 +45,13 @@ export default function CommonTerms({ type }: CommonTermsProps): JSX.Element {
           ))}
         </section>
 
-        {type === 'Subscription' && (
+        {type !== 'Other' && (
           <section className={style.section}>
             <h2>Subscription Guide</h2>
             <p>
-              - Monthly membership is $0.99 per month, and annual membership is
-              $7.99 (32% OFF) per year.
+              {type === 'YoonSeul Subscription'
+                ? '- Monthly membership is $0.99 per month, and annual membership is $7.99 per year.'
+                : '- Annual membership is $3.99 per year.'}
             </p>
             <p>
               - These prices are for United States customers. Pricing in other
@@ -60,8 +59,9 @@ export default function CommonTerms({ type }: CommonTermsProps): JSX.Element {
               local currency depending on the country of residence.
             </p>
             <p>
-              - Before membership subscription, you can experience the app by
-              recording 29 records.
+              {type === 'YoonSeul Subscription'
+                ? '- Before membership subscription, you can experience the app by recording 29 records.'
+                : '- Before membership subscription, you can try the app for free for 7 days.'}
             </p>
             <p>
               - Subscription payment will be charged to your Apple account upon
