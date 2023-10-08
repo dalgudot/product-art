@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 144px;
+}
+
+.main p {
+  color: var(--gray1);
+  margin-top: 2px;
+}
+
+.main button {
+  margin-top: 12px;
+}
