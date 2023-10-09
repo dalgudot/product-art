@@ -6,6 +6,11 @@
   margin-top: 144px;
 }
 
+.main h1 {
+  color: var(--gray1);
+  font-weight: 800;
+}
+
 .main p {
   color: var(--gray1);
   margin-top: 2px;
