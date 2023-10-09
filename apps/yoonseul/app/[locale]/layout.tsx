@@ -1,5 +1,6 @@
-import '@dalgu/core-design-system/shared/colors-1.css';
-import '@dalgu/core-design-system/shared/text-styles-1.css';
+import '@dalgu/core-design-system/src/foundations/fonts.css';
+import '@dalgu/core-design-system/src/foundations/colors-1.css';
+import '@dalgu/core-design-system/src/foundations/text-styles-1.css';
 import '@dalgu/core-design-system/src/foundations/globals.css';
 import { useLocale } from 'next-intl';
 import { Providers } from './providers';
