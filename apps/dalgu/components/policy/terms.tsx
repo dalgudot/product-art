@@ -1,7 +1,11 @@
 import style from './policy.module.css';
 
 type CommonTermsProps = {
-  type: 'YoonSeul Subscription' | 'Calendar Subscription' | 'Other';
+  type:
+    | 'YoonSeul Subscription'
+    | 'Calendar Subscription'
+    | 'Reminder Subscription'
+    | 'Other';
 };
 
 export default function CommonTerms({ type }: CommonTermsProps): JSX.Element {
@@ -45,12 +49,15 @@ export default function CommonTerms({ type }: CommonTermsProps): JSX.Element {
           ))}
         </section>
 
+        {/* 구독 이용약관 */}
         {type !== 'Other' && (
           <section className={style.section}>
             <h2>Subscription Guide</h2>
             <p>
               {type === 'YoonSeul Subscription'
                 ? '- Monthly membership is $0.99 per month, and annual membership is $7.99 per year.'
+                : type === 'Reminder Subscription'
+                ? '- Monthly membership is $0.99 per month, and annual membership is $2.99 per year.'
                 : '- Annual membership is $3.99 per year.'}
             </p>
             <p>
@@ -61,6 +68,8 @@ export default function CommonTerms({ type }: CommonTermsProps): JSX.Element {
             <p>
               {type === 'YoonSeul Subscription'
                 ? '- Before membership subscription, you can experience the app by recording 29 records.'
+                : type === 'Reminder Subscription'
+                ? '- Before membership subscription, you can try the app for free for 7 days.'
                 : '- Before membership subscription, you can try the app for free for 7 days.'}
             </p>
             <p>
