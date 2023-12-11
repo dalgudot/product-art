@@ -13,11 +13,11 @@ const nextConfig = {
 
   async redirects() {
     return [
-      {
-        source: '/yoonseul',
-        destination: 'https://apps.apple.com/kr/app/yoonseul/id1618657913',
-        permanent: false,
-      },
+      // {
+      //   source: '/yoonseul',
+      //   destination: 'https://apps.apple.com/kr/app/yoonseul/id1618657913',
+      //   permanent: false,
+      // },
       {
         source: '/today-todo',
         destination:
