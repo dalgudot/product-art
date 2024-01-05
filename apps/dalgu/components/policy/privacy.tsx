@@ -6,7 +6,7 @@ type PrivacyProps = {
     | 'Today To Do'
     | 'Plant Family'
     | 'Reminder'
-    | 'Calendar';
+    | 'Scheduler';
   contactEmail:
     | 'yoonseul.app@gmail.com'
     | 'todaytodo.application@gmail.com'
