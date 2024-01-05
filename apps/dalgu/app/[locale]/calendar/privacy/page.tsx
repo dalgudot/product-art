@@ -3,7 +3,7 @@ import Privacy from '../../../../components/policy/privacy';
 
 const CalendarPrivacy: NextPage = () => {
   return (
-    <Privacy appName='Calendar' contactEmail='calendar.dalgu.app@gmail.com' />
+    <Privacy appName='Scheduler' contactEmail='calendar.dalgu.app@gmail.com' />
   );
 };
 
